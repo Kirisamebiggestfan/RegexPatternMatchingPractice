@@ -13,7 +13,7 @@ public class RegexChecker
         string defaultRegex = "^[a-z]";
 
         // Query
-        System.Console.Write("The default regular expression checks for at least one digit.\nEnter a regular expression (or press ENTER to use the default): ");
+        System.Console.Write("Enter a regular expression (or press ENTER to use the default): ");
         regex = System.Console.ReadLine();
 
         if (regex is null) 
